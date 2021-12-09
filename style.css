@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&family=Fuzzy+Bubbles&family=Indie+Flower&family=Road+Rage&display=swap');
+input{
+    height: 40px;
+    width: 300px;
+    margin-top: 220px;
+    margin-left: 400px;
+}
+button{
+    margin-left: 40px;
+}
+#try{
+    position: fixed;
+    top: 270px;
+    left: 580px;
+
+    display: inline;
+
+}
+#i{
+    margin-top: -260px;
+    display: inline;
+}
+.texte-1{
+   text-align: center;
+    margin-top: 100px;
+    position: relative;
+    top: 30px;
+}
+#outputtext{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+#in{
+    position: relative;
+    right: 190px;
+    bottom: 30px;
+}
+#btn{
+    margin-left: 220px;
+    width: 80px;
+    height: 40px;
+    background-color: #4e095e;
+    border-radius: 10px;
+    border: #8d00adab;
+    color: #e0d6e2;
+    margin-top: 30px;
+    font-family: 'Road Rage', cursive;
+    font-size: x-large;
+}
+#again-btn{
+   
+    width: 140px;
+    height: 40px;
+    background-color: #4e095e;
+    font-family: 'Road Rage', cursive;
+    font-size: x-large;
+    border-radius: 10px;
+    border: #8d00adab;
+    color: #e0d6e2;
+    margin-top: 30px;
+    position: fixed;
+    top: 320px;
+    left: 570px;
+}
+#btn:hover{
+    background-color: #5d595e8e;
+}
+#again-btn:hover{
+    background-color:#5d595e8e ;
+}
+
+.paragraphe1{
+    margin-top: 150px;
+}
+.paragraphe2{
+    margin-top: -160px;
+}
+img{
+    margin-top: 60px;
+    margin-left: 350px;
+    width: 550px;
+   
+}
+.btn-page1{
+    width: 180px;
+    height: 50px;
+    background-color: #8d00adab;
+    border-radius: 10px;
+    border: #8d00adab;
+    color: #580d69;
+    margin-top: 30px;
+    margin-left: -400px;
+    font-family: 'Road Rage', cursive;
+    font-size: xx-large;
+}
+.btn-page1:hover{
+    background-color : #c586d163;
+}
+body.page-2{
+background-image: url(background-planet.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 479px;
+}
+
+.page-1{
+    background-color: #580d6944;
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+
+
+}
+.par-1{
+    margin-left: 430px;
+    font-family: 'Road Rage', cursive;
+    margin-left: 380px;
+    font-size: xx-large;
+    color: #5f0201;
+
+}
+.parg-fin{
+    margin-left: 430px;
+    font-family: 'Road Rage', cursive;
+    margin-left: 450px;
+    font-size: xx-large;
+    color: #5f0201;
+    margin-top: -40px;
+
+}
+.div-page2{
+    background-color:#7a348a85;
+    height: 340px;
+    width: 700px;
+    margin-top: -60px;
+    margin-left: 250px;
+    font-family: 'Road Rage', cursive;
+    color: white;
+    font-size: 30px;
+}
+#retour{
+position: fixed;
+left: 280px;
+display: inline;
+color: white;
+
+}
+#game{
+    margin-left: 230px;
+    color: red;
+    font-family: 'Road Rage', cursive;
+}

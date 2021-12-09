@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/696da253b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body class="page-2"></body>
+
+<div class="div-page2">
+<div class="paragraphe1">
+    <p class="texte-1">Guess a number between 1-100</p>
+    <p id="outputtext">Enter a number bellow</p>
+</div>
+<div class="paragraphe2">
+    <input type="text" id="in">
+    <button id="btn" onclick="guess()">Guess</button> <button id="again-btn">Play again</button>
+     <p id="try">10</p>
+     <a href="index2.html"><i id="retour" class="fas fa-arrow-circle-left"></i></a>
+     <p id="game"></p>
+</div>
+</div>
+
+
+    <script>
+        var num=[Math.floor(Math.random()*100)];
+        var i;
+        var tries=10
+        var againbtn= document.getElementById('again-btn')
+        var out= document.getElementById('outputtext')
+        var gameover = document.getElementById('game')
+
+        function guess(){
+            i = document.getElementById('in');
+             var try_par = document.getElementById('try')
+             var btnG=document.getElementById('btn');
+             if(tries == 1){
+                btnG.style.display ="none";
+                gameover.innerHTML="Game Over";
+             }
+             
+            if (i.value==num){
+                out.innerHTML="You guessed right";
+                tries= tries-1;
+                try_par.innerHTML=tries;
+                try_par.style.display="none";
+                btnG.style.display="none";
+            }
+
+            else if(i.value<num){
+                out.innerHTML="too small hahahahahahaha";
+                tries=tries-1;
+               try_par.innerHTML=tries;}
+
+            else{
+                out.innerHTML="it's bigger than";
+                tries=tries-1;
+               try_par.innerHTML=tries;}
+        }
+againbtn.addEventListener('click',function(){
+    location.reload();
+})
+
+
+    </script>
+</body>
+</html>
